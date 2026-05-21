@@ -18,6 +18,11 @@ python -m venv venv
 # 2. Ativar
 venv\Scripts\activate
 
+ou
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process                                            
+>> venv\Scripts\activate         
+
 # 3. Instalar as dependências
 pip install -r requirements.txt
 
