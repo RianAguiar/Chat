@@ -1,4 +1,6 @@
 # Chat
+
+# STACK
 Django
 React
 JWT
@@ -7,6 +9,9 @@ Docker
 Redis
 Celery
 TDD
+
+# Instalação
+
 # 1. Criar o ambiente virtual
 python -m venv venv
 
@@ -16,3 +21,23 @@ venv\Scripts\activate           # Windows
 
 # 3. Instalar as dependências
 pip install -r requirements.txt
+
+
+# Estrutura Do Projeto
+
+chat-app/
+├── backend/
+│   ├── manage.py
+│   ├── requirements.txt
+│   ├── config/
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   └── apps/
+│       └── users/
+├── frontend/
+│   └── (criado depois com Vite)
+├── nginx/
+│   └── nginx.conf
+├── docker-compose.yml
+└── .env
