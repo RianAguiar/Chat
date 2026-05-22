@@ -62,5 +62,5 @@ coverage==7.14.0
 
 
 # super user
-name: user1 
-password: 123
+# name: user1 
+# password: 123
