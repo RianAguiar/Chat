@@ -1,6 +1,8 @@
 # Chat
 
-# STACK
+Chat Project to improve my code skills and my stack, where i document all my and the project evolution
+
+# STACK and FEATURES
 Django
 React
 JWT
