@@ -12,38 +12,28 @@ Redis
 Celery
 TDD
 
-# Instalação
+# installation
 
-# 1. Criar o ambiente virtual
+# 1. Make the Virtual Environment
 python -m venv venv
 
-# 2. Ativar
+# 2. Activating
 venv\Scripts\activate
 
-ou
+or
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process                                            
->> venv\Scripts\activate         
+venv\Scripts\activate         
 
-# 3. Instalar as dependências
+# 3. Dependencies Installation
 pip install -r requirements.txt
 
+# 4. VsCode Extensions(optional)
+- SQLite Viewer
 
-# Estrutura Do Projeto
 
-chat-app/
-├── backend/
-│   ├── manage.py
-│   ├── requirements.txt
-│   ├── config/
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-│   └── apps/
-│       └── users/
-├── frontend/
-│   └── (criado depois com Vite)
-├── nginx/
-│   └── nginx.conf
-├── docker-compose.yml
-└── .env
+# Features added so far
+
+- Login generating JWT tokens
+- Sign up new users feature
+
