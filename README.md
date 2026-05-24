@@ -27,9 +27,8 @@ venv\Scripts\activate
 # 3. Dependencies Installation
 pip install -r requirements.txt
 
-# 4. VsCode Extensions(optional)
-- SQLite Viewer
-
+# 4.optionals
+- SQLite Viewer(VScode extension)
 WebSocket Tester:
 - https://hoppscotch.io/realtime/websocket
 
