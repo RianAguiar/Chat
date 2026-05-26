@@ -13,12 +13,12 @@ Celery
 TDD
 
 # Goals
-database save messages
-websocket authentication with jwt
-make frontend with react
-add redis as chennel layer
-add celery for async tasks
-add docker
+database save messages, 
+websocket authentication with jwt, 
+make frontend with react, 
+add redis as chennel layer, 
+add celery for async tasks, 
+add docker, 
 switch from sqlite to postgresql
 
 # installation
