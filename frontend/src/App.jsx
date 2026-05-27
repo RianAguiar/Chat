@@ -2,18 +2,19 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
+  const emoji = '❤'
   return (
     <>
-    <div class='indextopcontainer'>
-      <button id='signup' class='signup'>sign up</button>
-      <button id='signin' class='signin'>sign in</button>
+    <div className='indextopcontainer'>
+      <button id='signup' className='signup'>sign up</button>
+      <button id='signin' className='signin'>sign in</button>
     </div>
 
-    <h1 id='avocadochat' class='avocadochat'>🥑Avocado Chat</h1>
+    <h1 id='avocadochat' className='avocadochat'>{emoji}🥑Avocado Chat</h1>
 
-    <div class='indexcontainer'>
-      <input type="" name="" id="indexinput" placeholder='Room Name' class='indexinput'/>
-      <button id='indexenterbutton' class='indexenterbutton'>Enter</button>
+    <div className='indexcontainer'>
+      <input type="" name="" id="indexinput" placeholder='Room Name' className='indexinput'/>
+      <button id='indexenterbutton' className='indexenterbutton'>Enter</button>
     </div>
 
     </>
