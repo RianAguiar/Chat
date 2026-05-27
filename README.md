@@ -35,6 +35,7 @@ venv\Scripts\activate
 
 # 3. Dependencies Installation
 pip install -r requirements.txt
+# and
 npm install
 
 # 4.optionals
