@@ -13,6 +13,3 @@ useEffect
 fetch / axios
 CRUD completo
 
-
-#javascript basico
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide

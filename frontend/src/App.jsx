@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './styles/App.css'
+import HelloWorld from './components/HelloWorld'
+import Frase from './components/Frase'
 
 function App() {
   const emoji = '❤'
@@ -16,7 +18,10 @@ function App() {
       <input type="" name="" id="indexinput" placeholder='Room Name' className='indexinput'/>
       <button id='indexenterbutton' className='indexenterbutton'>Enter</button>
     </div>
-
+    <div>
+      <HelloWorld/>
+      <Frase/>
+    </div>
     </>
   )
 }
