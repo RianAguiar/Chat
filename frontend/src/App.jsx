@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './styles/App.css'
 import HelloWorld from './components/HelloWorld'
-import Frase from './components/Frase'
+import SayMyName from './components/SayMyName'
 
 function App() {
   const emoji = '❤'
@@ -20,7 +20,8 @@ function App() {
     </div>
     <div>
       <HelloWorld/>
-      <Frase/>
+      <SayMyName name='Ryan'/>
+      
     </div>
     </>
   )
