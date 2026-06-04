@@ -1,6 +1,5 @@
-import '../styles/indexinput.css'
 
-function Input(props) {
+function Gsc() {
     return(
         <>
             <input type="" name="" placeholder={props.placeholder} className={props.className}/>

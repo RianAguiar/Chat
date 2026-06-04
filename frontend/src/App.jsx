@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './styles/App.css'
 import Input from './components/Input'
 import Button from './components/Button'
+import Gsc from './components/Gsc'
 
 function App() {
   const eastereggemoji = '🧛‍♀️'
@@ -17,8 +18,8 @@ function App() {
       </div>
     </div>
 
-    <div className='indexeasteregg'>
-        <p>{eastereggemoji}</p>
+    <div>
+      <Gsc className='indexeasteregg'/>
     </div>
     </>
   )

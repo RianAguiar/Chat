@@ -1,0 +1,17 @@
+.eastereggemoji{
+  transition: 0.5s;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 5px;
+  
+
+}
+
+.eastereggemoji:hover{
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 5px;
+
+}
