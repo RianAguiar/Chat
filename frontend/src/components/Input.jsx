@@ -1,3 +1,5 @@
+import '../styles/indexinput.css'
+
 function Input(props) {
     return(
         <div>
