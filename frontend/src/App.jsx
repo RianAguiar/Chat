@@ -3,6 +3,7 @@ import './styles/App.css'
 import Input from './components/Input'
 import Button from './components/Button'
 import Gsc from './components/Gsc'
+import IndexForm from './components/IndexForm'
 
 function App() {
   const eastereggemoji = '🧛‍♀️'
@@ -12,9 +13,7 @@ function App() {
 
     <div className='indexcontainerdad'>
       <div className='indexcontainer'>
-        <Input placeholder='Your Name' className='indexinput'/>
-        <Input placeholder='Room Name' className='indexinput'/>
-        <Button written='Get In' className='indexenterbutton'/>
+        <IndexForm/>
       </div>
     </div>
 
