@@ -6,6 +6,7 @@ body {
   margin: 0;
   background: #3D2850;
   background: radial-gradient(at right top, #3D2850, #010101);
+  transition: all 0.5s;
 }
 
 #root {
