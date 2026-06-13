@@ -19,10 +19,9 @@ function Chat() {
             <div className="chat-container">
                 <div className="chat-box">
                     <div className="messages">
-                        {chat.map((msg, index) => (
-                            <div key={index} className="message">{msg}</div>
-                        ))}
+                        {chat.map((msg, index) => (<div key={index} className="message">{msg}</div>))}
                     </div>
+                    
                     <div className="input-container">
                         <input
                             type="text"
