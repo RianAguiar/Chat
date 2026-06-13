@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import { useState } from 'react'
-import styles from '../styles/App.css'
+import '../styles/App.css'
 import Input from '../components/Input'
 import Button from '../components/Button'
 import Gsc from '../components/Gsc'
@@ -9,17 +10,19 @@ function Index() {
   const eastereggemoji = '🧛‍♀️'
   return (
     <>
-    <h1 id='avocadochat' className='avocadochat'>🥑Avocado Chat</h1>
+      <Link to="/Chat">Chat</Link>
 
-    <div className='indexcontainerdad'>
-      <div className='indexcontainer'>
-        <IndexForm/>
+      <h1 id='avocadochat' className='avocadochat'>🥑Avocado Chat</h1>
+
+      <div className='indexcontainerdad'>
+        <div className='indexcontainer'>
+          <IndexForm/>
+        </div>
       </div>
-    </div>
 
-    <div>
-      <Gsc className='indexeasteregg'/>
-    </div>
+      <div>
+        <Gsc className='indexeasteregg'/>
+      </div>
     </>
   )
 }
