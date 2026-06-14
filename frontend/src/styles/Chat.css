@@ -19,10 +19,14 @@
 }
 
 .message {
-    
     border-radius: 10px;
     padding: 10px;
     max-width: 100%;
+    transition: 0.5s;
+}
+
+.message:hover {
+    scale: 1.2;
 }
 
 .input-container {
@@ -41,21 +45,42 @@
     padding: 10px;
     border-radius: 10px;
     border-style: none;
+    transition: 0.5s;
 }
 
-.input-container button {
-    padding: 10px 20px;
-    background-color: #3D2850;
-    color: #ffffff;
-    border-radius: 6px;
-    border-style: none  ;
-    transition: 0.5s;
+.input-container input:hover {
+    scale: 1.05;
 }
 
 .input-container input::placeholder{
     color: white;
 }
 
-button:hover{
-    background-color: green;
+.input-container svg{
+    display: flex;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
 }
+
+.input-container svg:hover{
+    color: rgb(0, 255, 0);
+    scale: 1.5;
+}
+
+.exit svg{
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.exit svg:hover{
+    color: rgb(255, 0, 111);
+    scale: 1.5;
+}
+

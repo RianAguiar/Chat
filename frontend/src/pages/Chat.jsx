@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { SlArrowRightCircle, SlArrowLeft } from "react-icons/sl";
 import { useState } from 'react'
 import '../styles/Chat.css'
 
@@ -15,7 +16,10 @@ function Chat() {
 
     return (
         <>
-            <Link to="/">Index</Link>
+            <div className="exit">
+                <Link to="/"><SlArrowLeft /></Link>
+            </div>
+
             <div className="chat-container">
                 <div className="chat-box">
                     <div className="messages">
@@ -29,7 +33,7 @@ function Chat() {
                             onChange={(e) => setMessage(e.target.value)}
                             placeholder="Digite uma mensagem..."
                         />
-                        <button onClick={handleSend}>Enviar</button>
+                        <SlArrowRightCircle onClick={handleSend}/>
                     </div>
                 </div>
             </div>
