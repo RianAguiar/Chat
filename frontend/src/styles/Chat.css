@@ -55,6 +55,7 @@
 .input-container input::placeholder{
     color: white;
 }
+
 button:hover{
     background-color: green;
 }
