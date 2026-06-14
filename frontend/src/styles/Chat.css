@@ -19,7 +19,7 @@
 }
 
 .message {
-    background: rgba(255, 255, 255, 0.25);
+    
     border-radius: 10px;
     padding: 10px;
     max-width: 100%;
@@ -36,6 +36,7 @@
 }
 
 .input-container input {
+    background-color: #3D2850;
     flex: 1;
     padding: 10px;
     border-radius: 10px;
@@ -51,6 +52,9 @@
     transition: 0.5s;
 }
 
+.input-container input::placeholder{
+    color: white;
+}
 button:hover{
     background-color: green;
 }
