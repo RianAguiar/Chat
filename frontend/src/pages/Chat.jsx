@@ -3,6 +3,31 @@ import { SlArrowRightCircle, SlArrowLeft } from "react-icons/sl";
 import { useState } from 'react'
 import '../styles/Chat.css'
 
+
+const ExemploDeDados ={
+  "sala": {
+    "id": 1321,
+    "salanome": "Sala Projeto Chat"
+  },
+  "mensagens": [
+    {
+      "username": "Carlinhos",
+      "mensagem": "A jovem guarda foi um movimento",
+      "enviado_as": "01/07/2026, 14:24"
+    },
+    {
+      "username": "Dalva",
+      "mensagem": "A cleide faz oq mesmo?",
+      "enviado_as": "01/07/2026, 14:23"
+    },
+    {
+      "username": "Cleide",
+      "mensagem": "oi, boa tarde",
+      "enviado_as": "01/07/2026, 14:34"
+    }
+  ]
+}
+
 function Chat() {
     const [message, setMessage] = useState('')
     const [chat, setChat] = useState([])
